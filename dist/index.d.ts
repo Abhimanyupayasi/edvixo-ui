@@ -1,0 +1,1 @@
+export { default as StepsProduct } from "./components/StepsProduct";
