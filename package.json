@@ -1,6 +1,6 @@
 {
   "name": "edvixo-ui",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Reusable UI components for microfrontends",
   "license": "MIT",
   "main": "dist/index.js",
