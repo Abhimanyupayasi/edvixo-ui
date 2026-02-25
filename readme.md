@@ -103,7 +103,7 @@ We welcome contributions 🙌
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Abhimanyupayasi/edvixo-ui.git
 cd edvixo-ui
 npm install
 ```
