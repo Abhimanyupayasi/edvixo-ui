@@ -9,9 +9,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
+    # REQUIRED for npm Trusted Publisher
     permissions:
       id-token: write
       contents: read
+
+    # MUST match npm Trusted Publisher environment
+    environment: npm-publish
 
     steps:
       - name: Checkout
@@ -24,7 +28,7 @@ jobs:
           registry-url: https://registry.npmjs.org
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Package
         run: npm run build
