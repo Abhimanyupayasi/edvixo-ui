@@ -1,25 +1,22 @@
 {
   "name": "edvixo-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Reusable UI components for microfrontends",
   "license": "MIT",
-
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-
-  "files": ["dist"],
-
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rimraf dist && tsc",
     "dev": "tsc -w"
   },
-
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
     "next": ">=14"
   },
-
   "devDependencies": {
     "rimraf": "^5.0.0",
     "typescript": "^5.0.0",
