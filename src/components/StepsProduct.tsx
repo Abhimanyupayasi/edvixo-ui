@@ -30,7 +30,7 @@ export default function StepsProduct({
     <section className="py-24 bg-white w-full">
       <div className="w-full px-6">
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-extrabold text-slate-900">
+          <h2 className="text-4xl text-gray-900 font-extrabold ">
             {title || `Getting Started in ${steps?.length} Steps`}
           </h2>
         </div>

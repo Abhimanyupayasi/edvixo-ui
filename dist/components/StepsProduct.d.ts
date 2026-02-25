@@ -13,3 +13,4 @@ export interface StepsProductProps {
     title?: string;
 }
 export default function StepsProduct({ data, baseUrl, title, }: StepsProductProps): import("react/jsx-runtime").JSX.Element;
+//# sourceMappingURL=StepsProduct.d.ts.map
